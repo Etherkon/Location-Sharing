@@ -1,0 +1,56 @@
+body {
+    width: 94%;
+    max-width: 420px;
+    min-width: 280px;
+    font-family: sans-serif;
+    font-size: small;
+    line-height: 1.5;
+    padding: 1em 0px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+@media screen and (min-width: 340px) {
+    body {font-size: medium}
+}
+
+@media screen and (min-width: 420px) {
+    body {font-size: larger}
+}
+
+.feed-container {
+    width: 100%;
+}
+
+.card {
+  width: 94%;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 1.5em;
+  padding: 3%;
+}
+
+#card-template {
+  display: none;
+}
+
+.card>div {
+    margin: .5ex;
+}
+.user, .location {
+    float: left;
+    clear: left;
+}
+.time {
+    float: right;
+}
+.user {
+    font-style: italic;
+}
+.location {
+    font-weight: bold;
+}
+.location>span {
+    display: inline-block;
+    min-width: 11ex;
+}
