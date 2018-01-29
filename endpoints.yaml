@@ -1,0 +1,13 @@
+feedback:
+    resource_title: position feedback records
+    item_title: posititon feedback record
+    schema:
+        user:
+            type: string
+            required: true
+        lat:
+            type: float
+            required: true
+        lon:
+            type: float
+            required: true
